@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        //let x=0
+        function sendmessage(){
+            let x=10;
+            console.log("Hai js");
+            console.log(x);
+        }
+        sendmessage();
+        //console.log(x);
+        function check(){
+            if(true){
+                let name="web development";
+                var iscloudy="true";
+                console.log(name);
+            }
+            console.log(iscloudy);
+        }
+        check()
+        function first(){
+            console.log("This is my first function:");
+
+
+        }
+        first()
+        function second(callback){
+            console.log("This is my second function:")
+            setInterval(callback,2000);
+
+        }
+        second(first)
+        let count=0;
+        let input=()=>{
+            count++;
+            console.log(count);
+            if(count<5){
+                input();
+            }
+        }
+        input()
+
+    </script>
+</body>
+</html>
