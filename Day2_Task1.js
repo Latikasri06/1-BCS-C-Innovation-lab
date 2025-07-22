@@ -1,10 +1,12 @@
+// simple if statement      
+
 let age = 20;
 if (age >= 18)
     {
         console.log("You are eligible to vote.");
     }
 
-
+//if-else blocks
 
 let number = 5;
 if (number % 2 === 0)
@@ -15,6 +17,8 @@ if (number % 2 === 0)
     {
         console.log("Odd number");
     }
+
+//multiple conditions with else-if
 
 let mark = 85;
 if (mark >= 90) 
@@ -34,7 +38,7 @@ if (mark >= 90)
                 console.log("Fail");
             }
 
-
+//switch statements
 
 let day = 3;
 switch(day) 
