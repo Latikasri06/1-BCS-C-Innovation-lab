@@ -1,3 +1,5 @@
+// break condition
+
 for(let i=2;i<=20;i++) 
     {
         let isPrime = true;
@@ -16,7 +18,7 @@ for(let i=2;i<=20;i++)
                 }
     }
 
-
+// continue
 
 for (let i = 1; i <= 20; i++) 
     {
