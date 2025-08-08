@@ -30,7 +30,8 @@ class bank{
 let b=new bank(10);
 console.log(b)
 
-b.amount=100;
-console.log(this.b_balance)
+b.balance=100;
+console.log(b);
+
 
 
